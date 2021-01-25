@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+* {
+  font-family: "Sriracha", cursive;
+}
+/* Header */
+.container {
+  max-width: 960px !important;
+  margin: 0 auto;
+}
+.header {
+  background-color: #333;
+  height: 80px;
+}
+.header-con {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+.logo-container a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+}
+dl,
+ol,
+ul {
+  margin-top: revert !important;
+  margin-bottom: 1rem;
+}
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  padding-right: 2rem;
+}
+.menu li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.mobile-menu {
+  display: none;
+}
+
+/* content */
+.box {
+  background-color: rgb(216, 213, 213);
+  width: 400px;
+  height: 350px;
+  border-radius: 30px;
+  margin: 50px auto;
+  display: flex;
+}
+.box-name {
+  padding: 0.7rem 1.5rem;
+  text-align: center;
+  width: 400px;
+}
+.topic-name {
+  padding: 0rem 1.5rem;
+  text-align: center;
+  width: 400px;
+}
+.text {
+  width: 400px;
+  text-align: center;
+  padding: 0.7rem 1.5rem;
+}
+h2 {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(90, 155, 216);
+  color: white;
+}
+.btn {
+  width: 350px;
+  margin-left: 6px;
+}
+
+@media screen and (max-width: 480px) {
+  .box {
+    background-color: rgb(216, 213, 213);
+    width: 330px;
+    height: 330px;
+    border-radius: 30px;
+    margin: 50px auto;
+    display: flex;
+  }
+  .box-name {
+    padding: 0.7rem 1.5rem;
+    text-align: center;
+    width: 330px;
+  }
+  .topic-name {
+    padding: 0rem 1.5rem;
+    text-align: center;
+    width: 330px;
+  }
+  .text {
+    width: 330px;
+    text-align: center;
+    padding: 0.7rem 1.5rem;
+  }
+  .btn {
+    width: 280px;
+    margin-left: 6px;
+  }
+  h2 {
+    text-align: center;
+    width: 330px;
+    padding: 1rem;
+    background-color: rgb(90, 155, 216);
+    color: white;
+  }
+}
